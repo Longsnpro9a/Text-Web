@@ -1,0 +1,44 @@
+/* Mobie && Tablet */
+@media (max-width:1023px){
+    
+    #main .main__header .main__breadcrumb{
+        order: 2;
+        width: 100%;
+    }
+
+    #main .main__header .main__sort{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    #main .main__header .main__sort .sort__modes{
+        display: none;
+    }
+
+    .main__container .main__list .main__item:nth-child(1){
+        width: 100%;
+    }
+
+    .main__container .main__list .main__item{
+        width: 50%;
+    }
+
+    #main .Filter{
+        width: 222px;
+        font-size: 14px;
+    }
+
+    #main .Filter .Filter--item{
+        font-size: 14px;
+    }
+}
+
+/* Tablet */
+@media (min-width:740px) and (max-width:1023px) {
+    
+}
+
+/* Mobie */
+@media (max-width:739px) {
+    
+}
